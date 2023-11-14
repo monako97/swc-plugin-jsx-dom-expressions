@@ -1,13 +1,17 @@
 {
-    "name": "swc-plugin-jsx-dom-expressions",
-    "version": "0.1.0",
+    "name": "@moneko/jsx-dom-expressions",
+    "version": "0.2.1",
     "description": "",
     "author": "",
     "license": "ISC",
-    "keywords": ["swc-plugin"],
-    "main": "target/wasm32-wasi/release/swc-plugin-jsx-dom-expressions.wasm",
+    "keywords": [
+        "swc-plugin"
+    ],
+    "main": "jsx-dom-expressions.wasm",
     "scripts": {
-        "prepublishOnly": "cargo build-wasi && cargo build-wasm32"
+        "prepublishOnly": "cargo build-wasi && cargo build-wasm32 && mv ./target/wasm32-wasi/release/jsx_dom_expressions.wasm ./jsx-dom-expressions.wasm"
     },
-    "files": []
+    "files": [
+        "jsx-dom-expressions.wasm"
+    ]
 }
