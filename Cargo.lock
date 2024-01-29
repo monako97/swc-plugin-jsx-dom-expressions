@@ -1404,9 +1404,9 @@ dependencies = [
 
 [[package]]
 name = "swc_core"
-version = "0.89.1"
+version = "0.89.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ed64351a7664c694b9274a613b6a36702f85da29bdbf5194059b19a73217a00a"
+checksum = "a7c46bece1a7540f267b50775924658f0625f82ba580986f53322becb1a204b9"
 dependencies = [
  "once_cell",
  "swc_atoms",
@@ -1477,9 +1477,9 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_minifier"
-version = "0.191.2"
+version = "0.191.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d7ed693be413eb44171ce48d794a3124477d8bb9de6af3740c4def6e8b02a216"
+checksum = "83a2011c5b8b3f118a13811fd1a00f30f1da88945a8132574dd68bcc27947449"
 dependencies = [
  "arrayvec",
  "indexmap",
@@ -1580,9 +1580,9 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_optimization"
-version = "0.197.2"
+version = "0.197.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "45400b4e4ba30142b0a8f5b498b000d6b5687ffc5e449f49d9253005549c430c"
+checksum = "58d45e00b8d69a04c566f1de51187e079dd563ac8e1a3ddb77b0bf300be9dc20"
 dependencies = [
  "dashmap",
  "indexmap",
